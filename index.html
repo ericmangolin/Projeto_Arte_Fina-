@@ -6,12 +6,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-        <link type="stylesheet" href="css/style.css">
-        <link type="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/docs.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
         <link rel="stylesheet" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -19,31 +18,48 @@
     </head>
     <body>
         <header>
-            <div class="container-fluid" id="div-logo" style="background-color: #F2B62D">
+            <div class="container-fluid div-geral" style="background-color: rgb(245, 226, 184)">
                 
-                <div class="row justify-content-md-center">
+                <div class="row align-items-center">
                     
-                    <div class="row col-lg-4" id="div-social">
-                        <ion-icon size="large" name="logo-facebook"></ion-icon>
-                        <ion-icon size="large" name="logo-instagram"></ion-icon>
-                        <ion-icon size="large" name="mail-outline"></ion-icon>
-                        <ion-icon size="large" name="logo-whatsapp"></ion-icon>
+                    <div class="col-lg-4 div-social">
+                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-facebook"></ion-icon></a>
+                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-instagram"></ion-icon></a>
+                        <a href="#"><ion-icon id="ico-social" size="large" name="mail-outline"></ion-icon></a>
+                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-whatsapp"></ion-icon></a>
                     </div>
                     
-                    <div class="row col-lg-4" id="div-logo">
-                        <img src="img/...">
+                    <div class="col-lg-4 div-logo">
+                            <img src="img/logo/logo_vetor_P.png">
                     </div>
                     
-                    <div class="row col-lg-4" id="div-cadastro">
-                        <ion-icon size="large" name="person-add-outline"></ion-icon>
+                    <div class="col-lg-4 div-cadastro">
+                        <a href="#"><ion-icon id="ico-cadastro" size="large" name="person-add-outline"></ion-icon></a>
                     </div>
                 </div>
             </div>
         </header>
 
-        <div class=""
-            
-        
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(Página atual)</span></a>
+                <a class="nav-item nav-link" href="#">Quem Somos</a>
+                <a class="nav-item nav-link" href="#">Produtos</a>
+                <a class="nav-item nav-link" href="#">Personalize</a>
+                <a class="nav-item nav-link" href="#">Fale Conosco</a>
+              </div>
+            </div>
+          </nav>
+
+        <div class="container-fluid fundo">
+            <img class="img-fluid img-fundo" src="img/background/3.jpg">
+            <p>teste</p>
+        </div>
+                    
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
         <script src="js/bootstrap.js"></script>
