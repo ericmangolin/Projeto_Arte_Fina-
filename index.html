@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>* Arte Fina *</title>
+        <title>   Arte Fina</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,45 +17,113 @@
     
     </head>
     <body>
+
+<!--  CABEÇALHO COM MIDIAS SOCIAIS E LOGO  -->
+
         <header>
-            <div class="container-fluid div-geral" style="background-color: rgb(245, 226, 184)">
+            <div class="container div-geral" style="background-color: rgb(245, 226, 184)">
                 
                 <div class="row align-items-center">
                     
                     <div class="col-lg-4 div-social">
-                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-facebook"></ion-icon></a>
-                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-instagram"></ion-icon></a>
-                        <a href="#"><ion-icon id="ico-social" size="large" name="mail-outline"></ion-icon></a>
-                        <a href="#"><ion-icon id="ico-social" size="large" name="logo-whatsapp"></ion-icon></a>
+                        <a href="#"><ion-icon id="ico-cadastro" size="large" name="person-add-outline"></ion-icon></a>
+                        <img class="separador-vertical" src="https://img.icons8.com/material-two-tone/36/000000/vertical-line.png"/>
+                        <a href="https://www.facebook.com/atelie.artefina1/"><ion-icon id="ico-social" size="large" name="logo-facebook"></ion-icon></a>
+                        <a href="https://www.instagram.com/atelie.artefina/"><ion-icon id="ico-social" size="large" name="logo-instagram"></ion-icon></a>
+                        <a href="contato.atelieartefina@gmail.com"><ion-icon id="ico-social" size="large" name="mail-outline"></ion-icon></a>
+                        <a href="bit.ly/33j9HOw"><ion-icon id="ico-social" size="large" name="logo-whatsapp"></ion-icon></a>
                     </div>
                     
                     <div class="col-lg-4 div-logo">
                             <img src="img/logo/logo_vetor_P.png">
                     </div>
                     
-                    <div class="col-lg-4 div-cadastro">
-                        <a href="#"><ion-icon id="ico-cadastro" size="large" name="person-add-outline"></ion-icon></a>
-                    </div>
                 </div>
             </div>
         </header>
+<!--------------------------------------------->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Alterna navegação">
+<!--  BARRA DE MENU  -->
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light container">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Alterna navegação">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(Página atual)</span></a>
-                <a class="nav-item nav-link" href="#">Quem Somos</a>
-                <a class="nav-item nav-link" href="#">Produtos</a>
-                <a class="nav-item nav-link" href="#">Personalize</a>
-                <a class="nav-item nav-link" href="#">Fale Conosco</a>
-              </div>
+          
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Quem Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Produtos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Personalize</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Fale Conosco</a>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><ion-icon name="search-outline"></ion-icon></button>
+              </form>
             </div>
           </nav>
+<!--------------------------------------------->
 
+<!--  CARROSSEL DE IMAGENS  -->
 
+<div class="container">
+    <div class="col col-lg-6">
+        <div class="div-carroussel">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        
+                        <img class="d-block w-100 img-carrossel" src="img/img_prod/carro_1.jpg" alt="Imagem 1">
+                        
+                    </div>
+
+                    <div class="carousel-item">
+                        
+                        <img class="d-block w-100 img-carrossel" src="img/img_prod/carro_2.jpg" alt="Imagem 2">
+                        
+                    </div>
+
+                    <div class="carousel-item">
+                        
+                        <img class="d-block w-100 img-carrossel" src="img/img_prod/carro_4.jpg" alt="Imagem 3">
+                        
+                    </div>
+
+                </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+            </div>
+        </div>
+    </div>
+        <div class="col col-lg-6">
+
+        </div>
+</div>
+<!--------------------------------------------->
                     
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>

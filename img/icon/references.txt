@@ -16,15 +16,10 @@ ICONS8
 
 https://icons8.com/icon/108643/facebook
 
-FACEBOOK
-<img src="https://img.icons8.com/bubbles/50/000000/facebook.png"/>
+LINHA VERTICAL
+<img src="https://img.icons8.com/material-two-tone/48/000000/vertical-line.png"/>
 
-<a href="https://icons8.com/icon/108643/facebook-old">Facebook Old icon by Icons8</a>
-
-INSTAGRAM
-<img src="https://img.icons8.com/cotton/64/000000/instagram-new.png"/>
-
-<a href="https://icons8.com/icon/68184/instagram">Instagram icon by Icons8</a>
+<a href="https://icons8.com/icon/118839/vertical-line">Vertical Line icon by Icons8</a>
 
 ----------------------------------------------------------
 https://feathericons.com/

@@ -5,11 +5,8 @@
     overflow: hidden;
     background-size: 100% 100%;
 }
-
 /*--- LOGO ---*/
-
 /*Para alinhamento vertical o pai tem que ter display flex*/
-
 .div-logo{
     width: 100%;
     padding: 0px 0px 0px 0px;
@@ -27,17 +24,34 @@
     color: #26a699;
     margin-left: 0.6rem;
 }
-a:hover > #ico-social{
-    color:#1e5953;
-}
-.div-cadastro{
-    
-}
 #ico-cadastro{
     width: 1.7rem;
     color: #26a699;
-    margin-left: 90%;
 }
-a:hover > #ico-cadastro{
+a:hover > #ico-social{
+    color:#1e5953;
+}
+.separador-vertical{
     color: #1e5953;
+    margin: 0px 0px 1.2rem 0px;
+    vertical-align: auto;
+    padding: 0px 1rem 0px 1rem;
 }
+/*------------------------------------*/
+.btn-outline-success{
+    color: #26a699;
+    border: #26a699;
+}
+.btn-outline-success a:hover{
+    color: #1e5953;
+    border: #1e5953;
+}
+/*--- CARROUSSEL ---*/
+.div-carroussel{
+    border: solid black 1px;
+    height: 20rem;
+}
+.img-carrossel{
+    height: 19.9rem;
+}
+/*------------------------------------*/
